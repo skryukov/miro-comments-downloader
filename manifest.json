@@ -1,0 +1,11 @@
+{
+  "name": "Miro Comments Downloader",
+  "description": "Export comments from Miro",
+  "version": "1.0",
+  "manifest_version": 3,
+  "permissions": ["activeTab", "tabs", "scripting"],
+  "host_permissions": ["https://miro.com/"],
+  "action": {
+    "default_popup": "popup.html"
+  }
+}
